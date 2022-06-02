@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fabian Munafo desarrollador WEB </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+    body{
+      background-color: royalblue;
+    }
+
+    .jumbotron{
+      background-color: black;
+    }
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      background-color: rgb(255, 187, 0);
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: solid 3px black;
+    }
+  
+    .sub{
+      color: black;
+    }
+
+
+    .sub_h1{
+      border: solid 2px black;
+      color: royalblue;
+    }
+
+    .row {
+      background-color: rgb(180, 199, 255);
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: black;
+      padding: 25px;
+    }
+
+    .redes{
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-start;
+    }
+
+    .derechos{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    .copy{
+      background: rgb(46, 72, 150);
+    }
+
+  </style>
+
+</head>
+<body>
+
+<div class="body bg-primary"></div>
+
+<header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Inicio</a></li>
+          <li><a href="./pag/sobre-mi.html">Sobre mi</a></li>
+          <li><a href="./pag/contacto.html">Contacto</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./pag/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="container text-center bg-primary">
+      <h1 class="tit_h1">Fabian Munafo</h1>      
+      <p class="sub">Aplicando el desarrollo WEB... a nuestro estilo de vida</p>
+    </div>
+  </div>
+</header>
+  
+<div class="container-fluid bg-warning text-center">     
+  <h3 class="sub_h1">Algunos lenguajes y servicios</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Conocimiento en...</p>
+      <img src="./img/c++.png" class="img-responsive" style="width: 100%" alt="Image-c++">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, assumenda.</p>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Alto nivel de...</p>
+      <img src="./img/js.png" class="img-responsive" style="width:100%" alt="Image-js">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, assumenda.</p>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Gran experiencia con...</p>
+      <img src="/img/pngegg.png" class="img-responsive" style="width:100%" alt="Image-python">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, tempore!</p>
+    </div>
+    <div class="col-sm-3">
+      <p>Mantenimiento de pagina...</p>
+      <img src="./img/red-mundial.png" class="img-responsive" style="width:100%" alt="Image-www">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, assumenda.</p>
+    </div>
+  </div>
+</div><br>
+
+
+
+<footer class="container-fluid text-center">
+  <div class="pie_de_pagina">
+    <div class="redes">
+      <a href="https://www.facebook.com/"><img src="./img/facebook.ico" height="40px" alt="face"></a>
+      <a href="https://www.instagram.com/"><img src="./img/instagram.ico" height="40px" alt="inst"></a>
+      <a href="https://web.whatsapp.com/"><img src="./img/whatsapp.ico" height="40px" alt="whats"></a>
+      <a href="https://ar.linkedin.com/"><img src="./img/linkedin.ico" height="40px" alt="link"></a>
+    </div>
+    <div class="derechos">
+      <div class="copy">
+        <img src="./img/copyright.ico" height="60px" alt="der_cop">
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
